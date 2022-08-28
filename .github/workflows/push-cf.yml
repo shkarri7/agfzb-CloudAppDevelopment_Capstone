@@ -9,7 +9,7 @@ env:
   IBM_CLOUD_SPACE: djangoserver-space
   IBM_CLOUD_ORG: shkarri
   MANIFEST_NAME: manifest.yml
-  IBM_CLOUD_API: ${{secrets.R43obzErI9Jbu1XkgXePnAe8FRinw2NWTOJ5ripi7aeH}}
+  IBM_CLOUD_API: R43obzErI9Jbu1XkgXePnAe8FRinw2NWTOJ5ripi7aeH
 
 defaults:
   run:
