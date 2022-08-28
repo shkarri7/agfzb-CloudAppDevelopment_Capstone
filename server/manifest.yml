@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: $HOST.$DOMAIN
+      - route: shkcars.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: shkcars.eu-gb.mybluemix.net/static
     memory: 128M
-    buildpack: staticfile_buildpack
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.7.25/nodejs-buildpack-cflinuxfs3-v1.7.25.zip
